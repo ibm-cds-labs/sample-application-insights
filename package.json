@@ -1,0 +1,33 @@
+{
+  "name": "nps",
+  "version": "0.0.1",
+  "description": "Sample application insights",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibm-cds-labs/sample-application-insights.git"
+  },
+  "author": "ptitzler@us.ibm.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-jshint": "0.12.0",
+    "jshint": "2.8.0",
+    "grunt-jscs": "2.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "compression": "^1.6.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.15.0",
+    "path": "^0.12.7"
+  }
+}
